@@ -1,4 +1,6 @@
 html {
+  overflow-y: scroll;
+
   font-size: $font-size;
 }
 
@@ -8,11 +10,20 @@ body {
 }
 
 a {
-    color: $color-primary;
+  color: $color-primary;
 
-    &:hover,
-    &:focus {
-        text-decoration: none;
-        color: $color-accent;
-    }
+  &:hover,
+  &:focus {
+    text-decoration: none;
+
+    color: $color-accent;
+  }
 }
+
+// h1 {
+//   //TODO: потом исправить на правильный отступ под размер шрифта
+//   margin-top: (-$gap / 2);
+
+//   font-family: $font-header;
+//   font-size: 3rem;
+// }
