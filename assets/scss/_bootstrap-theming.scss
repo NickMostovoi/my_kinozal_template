@@ -93,3 +93,18 @@
     font-size: 0.875rem;
   }
 }
+
+.film-comment-form__button {
+  float: right;
+}
+
+.embed-responsive {
+  border: 1px solid $color-gray;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+
+.well {
+  border-color: $color-gray;
+  background-color: #f1f1f1;
+}
