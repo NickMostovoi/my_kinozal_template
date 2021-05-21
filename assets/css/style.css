@@ -181,14 +181,14 @@ section {
 }
 
 .new-films-item__title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
   display: block;
   overflow: hidden;
   white-space: nowrap;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: bold;
 }
 
 .new-films-item__image {
@@ -216,14 +216,14 @@ section {
 }
 
 .top-week-item__title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
   display: block;
   overflow: hidden;
   white-space: nowrap;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: bold;
 }
 
 .top-week-item__image {
@@ -473,6 +473,13 @@ section {
   h1 {
     margin: 0 0 30px;
     font-size: 2rem;
+  }
+  h2 {
+    margin: 45px 0 30px 45px;
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
   }
   .header-logo__title {
     letter-spacing: 0.2em;
